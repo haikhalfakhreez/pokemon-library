@@ -4,8 +4,6 @@ import { getTypeColor, generateID, capitalizeFirstLetter } from '~/helpers'
 import Json from '~/components/json.client'
 
 export function PokemonDetails({ pokemon }: { pokemon: Pokemon }) {
-  console.log(pokemon)
-
   return (
     <div className="bg-white">
       <div className="flex items-center gap-x-4">
@@ -41,7 +39,7 @@ export function PokemonDetails({ pokemon }: { pokemon: Pokemon }) {
         </div>
       </div>
 
-      <div className="py-4">
+      <div className="overflow-x-auto py-4">
         <JsonViewer json={pokemon} />
       </div>
     </div>

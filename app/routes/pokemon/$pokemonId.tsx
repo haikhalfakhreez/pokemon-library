@@ -40,8 +40,8 @@ export default function JokeRoute() {
   return (
     <main>
       <Container>
-        <div className="py-20">
-          <div className="mb-4">
+        <div className="py-6">
+          <div className="mb-8">
             <Link to="/">
               <span className="link text-sm text-gray-500">&#8592; Back</span>
             </Link>
