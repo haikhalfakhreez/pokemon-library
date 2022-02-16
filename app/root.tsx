@@ -33,7 +33,7 @@ export const links: LinksFunction = () => {
 export const WEBSITE_TITLE = `Pokémon Library | Haikhal Fakhreez`
 export const WEBSITE_DESCRIPTION = `List of all available Pokémons`
 export const WEBSITE_URL: string = `https://pokemon-library.vercel.app/`
-const OG_IMAGE_PATH: string = '/images/pokelib.png'
+const OG_IMAGE_PATH: string = '/pokelib.png'
 
 export const meta: MetaFunction = () => {
   return {
