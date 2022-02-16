@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-grid {
+  @apply bg-grid-image bg-10-10 bg-slate-50;
+}

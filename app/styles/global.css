@@ -1,0 +1,16 @@
+:root {
+  --font-body: -apple-system, "Segoe UI", Helvetica Neue, Helvetica,
+    Roboto, Arial, sans-serif, system-ui, "Apple Color Emoji",
+    "Segoe UI Emoji";
+  --font-display: 'Inter', var(--font-body);
+}
+
+body {
+  font-family: var(--font-display);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
