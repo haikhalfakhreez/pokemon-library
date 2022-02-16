@@ -1,8 +1,8 @@
 # Pokémon Library
 
-Build with Remix 💿 using PokéAPI. 
+Build with Remix 💿 using PokéAPI. Deployed on Vercel.
 
-- [See live](https://haikhalfakhreez.github.io/pokemon-library/)
+- [See live](https://pokemon-library.vercel.app/)
 
 ## Resources Used
 1. [PokéAPI](https://pokeapi.co/)

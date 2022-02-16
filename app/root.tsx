@@ -32,7 +32,7 @@ export const links: LinksFunction = () => {
 
 export const WEBSITE_TITLE = `Pokémon Library | Haikhal Fakhreez`
 export const WEBSITE_DESCRIPTION = `List of all available Pokémons`
-export const WEBSITE_URL: string = `https://github.com/haikhalfakhreez/pokemon-library`
+export const WEBSITE_URL: string = `https://pokemon-library.vercel.app/`
 const OG_IMAGE_PATH: string = '/images/pokelib.png'
 
 export const meta: MetaFunction = () => {
@@ -51,19 +51,6 @@ export const meta: MetaFunction = () => {
     'twitter:creator': '@ekaliacid',
     'twitter:image': OG_IMAGE_PATH,
     'twitter:alt': WEBSITE_TITLE,
-
-    // <meta property="og:type" content="website" />
-    // <meta property="og:url" content="https://www.haikhalfakhreez.com/" />
-    // <meta property="og:title" content="Portfolio | Haikhal Fakhreez" />
-    // <meta property="og:description" content="Haikhal Fakhreez's personal website" />
-    // <meta property="og:image" content="/haikhal-portfolio.png" />
-    // <meta name="twitter:card" content="summary_large_image" />
-    // <meta name="twitter:title" content="Portfolio | Haikhal Fakhreez" />
-    // <meta name="twitter:description" content="Haikhal Fakhreez's personal website" />
-    // <meta name="twitter:site" content="@ekaliacid" />
-    // <meta name="twitter:creator" content="@ekaliacid" />
-    // <meta name="twitter:image" content="/haikhal-portfolio.png" />
-    // <meta name="twitter:alt" content="Portfolio | Haikhal Fakhreez" />
   }
 }
 

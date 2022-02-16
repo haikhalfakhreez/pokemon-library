@@ -7,7 +7,7 @@ import Loading from '~/components/loading'
 import { PokemonCard } from '~/components/pokemonCard'
 import type { PokemonData, GetNewPokemonsData } from '~/helpers/getPokemons'
 import { usePokemonList, getNewPokemons, INITIAL_OFFSET, PAGINATION_LIMIT } from '~/helpers/getPokemons'
-import { WEBSITE_TITLE, WEBSITE_DESCRIPTION, WEBSITE_URL } from '~/root'
+import { WEBSITE_TITLE, WEBSITE_DESCRIPTION } from '~/root'
 
 export const meta: MetaFunction = () => ({
   title: WEBSITE_TITLE,
@@ -103,7 +103,7 @@ function IndexHeader() {
       </div>
 
       <div className="mt-2 h-6 w-6">
-        <a href={WEBSITE_URL} target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/haikhalfakhreez/pokemon-library" target="_blank" rel="noopener noreferrer">
           <img
             src="/images/github.svg"
             alt="GitHub"
